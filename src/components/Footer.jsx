@@ -49,7 +49,7 @@ function Footer() {
           pb={'5'}
         >
           <Heading textTransform={'uppercase'} textAlign={'center'}>
-            VIDEO HUB
+            LEARN HUB
           </Heading>
           <Text>All rights received</Text>
         </VStack>

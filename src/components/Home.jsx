@@ -2,10 +2,10 @@ import { Box, Container, Heading, Image, Stack, Text } from '@chakra-ui/react';
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import img1 from '../assets/1.jpg';
-import img2 from '../assets/2.jpg';
-import img3 from '../assets/3.jpg';
-import img4 from '../assets/4.jpg';
+import img1 from '../assets/joanna-kosinska-LAaSoL0LrYs-unsplash.jpg';
+import img2 from '../assets/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg';
+import img3 from '../assets/alexander-grey-eMP4sYPJ9x0-unsplash.jpg';
+import img4 from '../assets/retrosupply-jLwVAUtLOAQ-unsplash.jpg';
 import img5 from '../assets/5.png';
 
 const headingOptions = {
@@ -29,7 +29,7 @@ const Home = () => {
           borderBottom={'2px solid'}
           m={'auto'}
         >
-          Services
+          LearnHub - Yours Personalized Learning Assistant.
         </Heading>
 
         <Stack
@@ -40,21 +40,13 @@ const Home = () => {
         >
           <Image src={img5} h={['40', '400']} filter={'hue-rotate(-130deg)'} />
 
-          <Text letterSpacing={'widest'} lineHeight={'190%'} p={['4', '16']} textAlign={'center'}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nemo
-            tempora deleniti quod, est eos veniam autem asperiores rem, nam
-            laudantium ut, similique ducimus amet sequi et voluptas iusto rerum
-            at aliquid numquam corporis ipsa reprehenderit? Porro iusto magnam,
-            sit vero deleniti, non nemo rem accusamus neque, quibusdam ab.
-            Libero, reprehenderit recusandae labore eaque, aspernatur aliquid
-            modi soluta ullam voluptatum unde repellat in molestias quod?
-            Doloribus ratione illum quisquam earum consequuntur nam voluptatem,
-            velit culpa maiores. Inventore esse illum excepturi dolores est
-            natus aliquid maiores sunt omnis deserunt accusantium amet enim eos
-            adipisci minima hic, nam provident quo aperiam quasi vel?
-            Dignissimos accusantium aliquid aut vel explicabo voluptatum
-            molestias fugit harum reprehenderit incidunt. Quis cumque explicabo
-            omnis officiis autem dolorum!
+          <Text
+            letterSpacing={'widest'}
+            lineHeight={'190%'}
+            p={['4', '16']}
+            textAlign={'center'}
+          >
+            LearnHub, an innovative web platform, connects Indian Students with the best teachers nationwide. It offers personalized learning experiences, helping students search for courses, assess their skills, and access live classes. The platform recommends courses based on user preferences, track progress, and fosters a collaborative learning envirnoment. LearnHub aims to revolutionize education by making quality teaching accessible and tailored to individual needs, empowering students accross India to achieve their educational goals.
           </Text>
         </Stack>
       </Container>
@@ -66,7 +58,7 @@ const MyCarousel = () => (
   <Carousel
     autoPlay
     infiniteLoop
-    interval={1000}
+    interval={3000}
     showStatus={false}
     showThumbs={false}
     showArrows={false}
@@ -74,29 +66,49 @@ const MyCarousel = () => (
   >
     <Box w={'full'} h={'100vh'}>
       <Image src={img1} h="full" w={'full'} objectFit={'cover'} />
-      <Heading fontSize={['4xl', '7xl']} bgColor={'blackAlpha.600'} color={'white'} {...headingOptions}>
-        Watching The Future
+      <Heading
+        fontSize={['4xl', '7xl']}
+        bgColor={'blackAlpha.600'}
+        color={'white'}
+        {...headingOptions}
+      >
+        LearnHub - Your personalized learning assistant. 
       </Heading>
     </Box>
 
     <Box w={'full'} h={'100vh'}>
-      <Image src={img2}  h="full" w={'full'} objectFit={'cover'}/>
-      <Heading fontSize={['4xl', '7xl']} bgColor={'whiteAlpha.900'} color={'black'} {...headingOptions}>
-        Future is Gaming
+      <Image src={img2} h="full" w={'full'} objectFit={'cover'} />
+      <Heading
+        fontSize={['4xl', '7xl']}
+        bgColor={'whiteAlpha.900'}
+        color={'black'}
+        {...headingOptions}
+      >
+        Connecting students with the best teachers, one click at a time.
       </Heading>
     </Box>
 
     <Box w={'full'} h={'100vh'}>
-      <Image src={img3}  h="full" w={'full'} objectFit={'cover'}/>
-      <Heading fontSize={['4xl', '7xl']} bgColor={'whiteAlpha.600'} color={'black'} {...headingOptions}>
-        Gaming on Console
+      <Image src={img3} h="full" w={'full'} objectFit={'cover'} />
+      <Heading
+        fontSize={['4xl', '7xl']}
+        bgColor={'whiteAlpha.600'}
+        color={'black'}
+        {...headingOptions}
+      >
+        Where great teachers meet eager learners.
       </Heading>
     </Box>
 
     <Box w={'full'} h={'100vh'}>
       <Image src={img4} h="full" w={'full'} objectFit={'cover'} />
-      <Heading  fontSize={['4xl', '7xl']} bgColor={'whiteAlpha.600'} color={'black'} {...headingOptions}>
-        Night Life is Cool
+      <Heading
+        fontSize={['4xl', '7xl']}
+        bgColor={'whiteAlpha.600'}
+        color={'black'}
+        {...headingOptions}
+      >
+        Bringing quality education to your fingertips.
       </Heading>
     </Box>
   </Carousel>
