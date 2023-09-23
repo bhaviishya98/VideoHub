@@ -7,6 +7,7 @@ import img2 from '../assets/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg';
 import img3 from '../assets/alexander-grey-eMP4sYPJ9x0-unsplash.jpg';
 import img4 from '../assets/retrosupply-jLwVAUtLOAQ-unsplash.jpg';
 import img5 from '../assets/5.png';
+import { useLocation } from 'react-router-dom';
 
 const headingOptions = {
   pos: 'absolute',

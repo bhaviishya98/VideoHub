@@ -60,7 +60,7 @@ function Header() {
                 variant={'ghost'}
                 colorScheme={'purple'}
               >
-                <Link to={'/videos?category=free'}>Free Videos</Link>
+                <Link to={'/course'}>Courses</Link>
               </Button>
               <Button
                 onClick={onClose}

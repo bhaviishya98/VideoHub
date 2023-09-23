@@ -1,0 +1,106 @@
+[
+  {
+    "teacher ": "Hitesh Choudhary",
+    "youtube": "CodeWithHarry",
+    "experience": "5 years",
+    "language": "Hindi",
+    "courses": ["Web Development", "C++", "Java", "Python"],
+    "rating": ["8.6", "8.1", "7.8", "7.5"]
+  },
+  {
+    "teacher ": "Shaun Pelling",
+    "youtube": "The Net Ninja",
+    "experience": "6 years",
+    "language": "English",
+    "courses": ["Web Development", "C++", "Java", "Python"],
+    "rating": ["8.6", "8.1", "7.8", "7.3"]
+  },
+  {
+    "teacher ": "Ramesh Singh",
+    "youtube": "Striver",
+    "experience": "7 years",
+    "language": "Hindi",
+    "courses": ["Web Development", "C++", "Java", "Python"],
+    "rating": ["8.6", "8.1", "7.8", "8.9"]
+  },
+  {
+    "teacher ": "Tim Devid",
+    "youtube": "FreeCodeCamp",
+    "experience": "4 years",
+    "language": "English",
+    "courses": ["Web Development", "C++", "Java", "Python"],
+    "rating": ["8.6", "8.1", "7.4", "8.3"]
+  },
+  {
+    "teacher ": "Chris Ching",
+    "youtube": "CodeWithChris",
+    "experience": "3 years",
+    "language": "English",
+    "courses": ["Web Development", "C++", "Java", "Python"],
+    "rating": ["8.6", "8.1", "7.4", "8.3"]
+  },
+  {
+    "teacher ": "John Purcell",
+    "youtube": "Cave of Programming",
+    "experience": "5.5 years",
+    "language": "English",
+    "courses": ["Web Development", "C++", "Java", "Python"],
+    "rating": ["8.6", "8.1", "7.4", "8.3"]
+  },
+  {
+    "teacher ": "Mosh Hamedani",
+    "youtube": "Programming with Mosh",
+    "experience": "5 years",
+    "language": "English",
+    "courses": ["Web Development", "C++", "Java", "Python"],
+    "rating": ["8.6", "8.1", "7.4", "8.3"]
+  },
+  {
+    "teacher ": "Navin Reddy's",
+    "youtube": "Telusko",
+    "experience": "4 years",
+    "language": "English",
+    "courses": ["Web Development", "C++", "Java", "Python"],
+    "rating": ["8.6", "8.1", "7.4", "8.3"]
+  },
+  {
+    "teacher ": "Derek Banas",
+    "youtube": "Derek Banas",
+    "experience": "4.5 years",
+    "language": "English",
+    "courses": ["Web Development", "C++", "Java", "Python"],
+    "rating": ["8.6", "8.1", "7.4", "8.3"]
+  },
+  {
+    "teacher ": "Koushik Kothagal",
+    "youtube": "Java Brains",
+    "experience": "5 years",
+    "language": "English",
+    "courses": ["Web Development", "C++", "Java", "Python"],
+    "rating": ["8.6", "8.1", "7.4", "8.3"]
+  },
+  {
+    "teacher ": "Derek Banas",
+    "youtube": "Derek Banas",
+    "experience": "4.5 years",
+    "language": "English",
+    "courses": ["Web Development", "C++", "Java", "Python"],
+    "rating": ["8.6", "8.1", "7.4", "8.3"]
+  },
+  {
+    "teacher ": "Brad Traversy",
+    "youtube": "Traversy Media",
+    "experience": "7 years",
+    "language": "English",
+    "courses": ["Web Development", "C++", "Java", "Python"],
+    "rating": ["8.6", "8.1", "7.4", "8.3"]
+  },
+  {
+    "teacher ": "Bajarne Stroustrup",
+    "youtube": "Derek Banas",
+    "experience": "4.5 years",
+    "language": "English",
+    "courses": ["Web Development", "C++", "Java", "Python"],
+    "rating": ["8.6", "8.1", "7.4", "8.3"]
+  }
+]

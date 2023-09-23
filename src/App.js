@@ -6,6 +6,8 @@ import Login from './components/Login';
 import SignUp from './components/SignUp';
 import Footer from './components/Footer';
 import Upload from './components/Upload';
+import Course from './components/course';
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/videos" element={<Videos />} />
         <Route path="/upload" element={<Upload />} />
+        <Route path="/course" element={<Course/>} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
       </Routes>
